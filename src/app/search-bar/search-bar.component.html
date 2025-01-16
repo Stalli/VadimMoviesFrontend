@@ -1,0 +1,6 @@
+<div class="search-box-form">
+  <mat-form-field class="search-box-full-width">
+    <mat-label>Type a movie title and press Enter</mat-label>
+    <input matInput placeholder="Ex. Armageddon" (keyup.enter)="onEnter()" [(ngModel)]="title">
+  </mat-form-field>
+</div>
