@@ -1,4 +1,4 @@
 ﻿export const environment = {
-  production: false,
-  apiUrl: `https://localhost:44355`
+  production: true,
+  apiUrl: `https://vadim-movies.azurewebsites.net/`
 };
